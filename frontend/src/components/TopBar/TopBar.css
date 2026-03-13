@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timer{
+    display: flex;
+    flex-direction: row;
+}
+.timer > div:first-child{
+    padding: 15px;
+    color: #ff3f56;
+    border-right: #d5d5d5 solid 1px;
+    font-weight: 900;
+    font-size: 52px;
+}
+.timer > div:last-child{
+    display: flex;
+    flex-direction: column;
+}
+.timer > div:last-child > div{
+    padding: 15px;
+    color: #000000;
+    font-weight: 700;
+    font-size: 18px;
+}
+.timer > div:last-child > div:first-child{
+    border-bottom: #d5d5d5 solid 1px;
+}
+
+.settings{
+    display: flex;
+    flex-direction: row;
+    color: #d5d5d5;
+}
+.settings > div:first-child{
+    border-right: #d5d5d5 solid 1px;
+}
+.settings > div{
+    padding: 15px;
+    cursor: pointer;
+}
