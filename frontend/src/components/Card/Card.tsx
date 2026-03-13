@@ -10,7 +10,7 @@ function Card(){
         <div className={`card ${flipped ? "flipped" :  ""}`} onClick={() => setFlipped(!flipped)}>
             <div className='front'>
                 <div className='placeholder'>
-                    <FontAwesomeIcon icon={faQuestion} size='2x'/>
+                    <FontAwesomeIcon icon={faQuestion} size='3x'/>
                 </div>
             </div>
             <div className='back'>

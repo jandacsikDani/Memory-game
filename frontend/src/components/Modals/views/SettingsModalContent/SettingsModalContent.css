@@ -50,12 +50,13 @@
     -moz-appearance: textfield;
 }
 
-.content > button{
+#saveButton{
     color: #ffffff;
     background-color: #ff3f56;
     padding: 15px 20px 15px 20px;
     border-radius: 30px;
     width: 260px;
     border: 0;
-    cursor: pointer;;
+    cursor: pointer;
+    margin: 0 auto;
 }

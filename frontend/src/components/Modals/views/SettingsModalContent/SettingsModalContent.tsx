@@ -15,13 +15,13 @@ function SettingsModalContent({ onClose }: ModalProp){
         <div className='content'>
             <div>
                 <div>Number of pair of cards</div>
-                <div><input type="number" name="" id="" min={1} max={99} /></div>
+                <div><input type="number" name="" id="" min={1} max={99} value={12} /></div>
             </div>
             <div>
                 <div>Countdown time (sec.)</div>
-                <div><input type="number" name="" id=""  min={1} max={99}/></div>
+                <div><input type="number" name="" id=""  min={1} max={99} value={60}/></div>
             </div>
-            <button>SAVE SETTINGS</button>
+            <button id='saveButton'>SAVE SETTINGS</button>
         </div>
     </>);
 }
