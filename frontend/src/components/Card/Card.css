@@ -53,4 +53,5 @@
 
 .back{
     transform: rotateY(180deg);
+    font-size: xx-large;
 }
